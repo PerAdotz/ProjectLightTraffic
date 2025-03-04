@@ -1,0 +1,20 @@
+{
+	"ID": "A_led_1",
+	"Name": "Traffic_light_LED",
+	"Type": "LED",
+	"zone": "A",
+	"status": "OK",
+	"availableServices": ["MQTT"],
+	"servicesDetails": [{
+		"serviceType": "MQTT",
+		"topic": "SmartTrafficLight/Led/A/1",
+		"topic_zone": "SmartTrafficLight/Led/A"
+	}],
+	"timer": 20,
+	"duty_cycle": 5,
+	"Thingspeak": {
+		"base_url": "https://api.thingspeak.com/update?api_key=",
+		"key": "LB7Y8LZTC7GIYP8L",
+		"url_read": "https://thingspeak.com/channels/2098201"
+	}
+}
